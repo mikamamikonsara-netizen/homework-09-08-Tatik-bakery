@@ -1,0 +1,67 @@
+.location-details{
+    width: 100%;
+    padding: 3% 10%;
+    background-color: #F7EEDC;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+.location-details-left-side{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.location-details-heading-top-text{
+    font-size: .9em;
+    color: #B95E3B;
+}
+.location-details-heading{
+    font-size: 2.5em;
+    color: #241A17;
+    line-height: 1.1;
+    margin-top: 25px;
+}
+.working-day-time-item{
+    font-size: 1em;
+    color: #241A17;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    border-bottom: 2px solid #D8C5AC;
+}
+.location-details-adress{
+    font-size: 1.1em;
+    color: #786860;
+    margin-top: 25px;
+}
+.location-details-get-dir-btn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 17px 28px;
+    margin-top: 25px;
+    border-radius: 30px;
+    color: #FFF9EE;
+    background-color: #8E1F2D;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.arrow{
+    transition: all .3s ease;
+}
+.location-details-get-dir-btn:hover .arrow{
+    transform: translateY(20px);
+    opacity: 0;
+}
+.location-details-get-dir-btn:hover{
+    transform: scale(1.1);
+    padding-left: 10px;
+}
+.location-details-right-side{
+    width: 65%;    
+}
+.location-img{
+    width: 100%;
+    border-radius: 25px;
+}

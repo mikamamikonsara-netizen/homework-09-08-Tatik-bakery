@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    padding: 3% 10%;
+    background-color: #241A17;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    font-size: .9em;
+    color: #EFAF64;
+}
+.footer-call-to-action{
+    font-size: 1.9em;
+    color: #FFF9EE;
+}
+.footer-social-item{
+    margin-block: 10px;
+}
+.footer-social-item-link{
+    font-size: 1em;
+    color: #FFF9EE;
+    transition: all .3s ease;
+}
+.footer-social-item:hover .footer-social-item-link{
+    color: #EFAF64;
+}
+.footer-bottom{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrights{
+    font-size: .9em;
+    color: #786860;
+}
+.blessing{
+    font-size: 1em;
+    color: #EFAF64;
+}

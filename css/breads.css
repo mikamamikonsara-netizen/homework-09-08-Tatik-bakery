@@ -1,0 +1,74 @@
+.breads-heading-side{
+    width: 100%;
+    padding: 3% 10% 1% 10%;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    background-color: #F7EEDC;
+}
+.breads-heading-top-text{
+    grid-column: span 2;
+}
+.breads-heading-top-text{
+    font-size: .9em;
+    font-weight: bold;
+    color: #B95E3B;
+}
+.breads-heading{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #241A17;
+}
+.breads-call-to-action-text{
+    font-size: 1em;
+    color: #786860;
+}
+.bread-card-body{
+    width: 100%;
+    padding: 1% 10% 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 25px;
+    background-color: #F7EEDC;
+}
+.bread-cad{
+    padding: 15px;
+    background-color: #FFF9EE;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr .30fr .30fr;
+    align-items: center;
+    row-gap: 5px;
+    transition: all .3s ease;
+}
+.bread-cad:hover{
+    box-shadow: 0 0 10px 5px #000;
+}
+.bread-card-img{
+    width: 100%;
+    grid-column: span 2;
+}
+.bread-card-type{
+    grid-row: span 2;
+}
+.bread-card-heading{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #241A17;
+    margin-top: 10px;
+}
+.bread-card-price{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #B95E3B;
+    display: flex;
+    justify-content: end;
+}
+.bread-card-type{
+    grid-column: span 2;
+    font-size: .9em;
+    color: #786860;
+}
